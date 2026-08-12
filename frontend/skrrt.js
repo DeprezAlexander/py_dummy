@@ -4,7 +4,7 @@ const { exec } = require('child_process')
 const fs = require('fs')
 const path = require('path')
 
-const router = express.Router()
+const router = express.Rouster()
 
 const pool = mysql.createPool({
 	host: process.env.DB_HOST,

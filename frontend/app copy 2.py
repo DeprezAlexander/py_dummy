@@ -10,7 +10,7 @@ def get_greeting(name: str) -> str:
 
 
 def main() -> None:
-    name = input("Enter your name: ") or "friend"
+    name = input("Enter your last name u muppet: ") or "friend"
     print(get_greeting(name))
 
 
